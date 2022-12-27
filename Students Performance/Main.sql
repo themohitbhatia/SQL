@@ -22,7 +22,7 @@ copy stu_per(roll_no,
               writing_score,
              total
              )
-             from 'C:\Users\lenovo\Desktop\MOHIT\MITRC\SQL\sql3\StudentsPerformance.csv' delimiter ',' csv header;
+             from 'D:\E\SQL\Students Performance\StudentsPerformance.csv' delimiter ',' csv header;
 select * from stu_per;
 alter table stu_per add primary key(roll_no);
 select roll_no from stu_per where gender='male' and roll_no between 20 and 30;
