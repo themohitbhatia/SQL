@@ -23,6 +23,7 @@ copy stu_per(roll_no,
              total
              )
              from 'D:\E\SQL\Students Performance\StudentsPerformance.csv' delimiter ',' csv header;
+             
 select * from stu_per;
 alter table stu_per add primary key(roll_no);
 select roll_no from stu_per where gender='male' and roll_no between 20 and 30;
